@@ -1,0 +1,87 @@
+
+/* Mengatur tampilan dasar seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray; /* Warna dengan nama */
+    color: #334155; /* Warna dengan format HEX */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Selector elemen: mengatur judul */
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #1d4ed8;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
+    color: #1e40af;
+}
+
+/* Selector ID: mengatur nama profil */
+#nama {
+    margin-bottom: 5px;
+}
+
+/* Selector class: mengatur jurusan */
+.jurusan {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(71, 85, 105); /* Warna RGB */
+}
+
+/* Box model: mengatur kotak utama */
+.kartu-profil {
+    width: 360px;
+    margin: 30px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* Selector turunan: paragraf di dalam deskripsi */
+.deskripsi p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+/* Selector grup: mengatur daftar keahlian */
+.keahlian ul {
+    padding-left: 20px;
+}
+
+/* Mengatur setiap keahlian agar tampil seperti label */
+.keahlian li {
+    display: inline-block;
+    margin: 4px 3px;
+    padding: 5px 10px;
+    background-color: rgba(37, 99, 235, 0.12);
+    color: #1d4ed8;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+/* Mengatur tombol kontak */
+.tombol {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white; /* Warna dengan nama */
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* Efek saat kursor berada di atas tombol */
+.tombol:hover {
+    background-color: #1e40af;
+}
